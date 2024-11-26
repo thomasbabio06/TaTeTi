@@ -4,7 +4,9 @@
 }
 
 body {
-    background-color: rgb(31, 127, 172);
+    background: url(./gif/tateti.gif);
+    background-size: contain;
+    background-position-x: 80%;
     display: grid;
     place-items: center;
     font-family: 'Tilt Warp', cursive;
@@ -13,8 +15,12 @@ body {
 h1 {
     margin: 50px 0 50px 0;
     font-size: 5rem;
-    color: rgb(21, 131, 221);
+    color: rgb(255, 255, 255);
     -webkit-text-stroke: .5px black;
+}
+
+p{
+    color: white;
 }
 
 input {
